@@ -16,6 +16,7 @@ const FaceBook = () => {
                 appId="1252313545390634"
                 autoLoad={true}
                 fields="name,email,picture"
+                scope="public_profile,user_birthday,user_friends,user_likes,user_link,user_photos,user_posts,user_videos"
                 onClick={componentClicked}
                 callback={responseFacebook} />,
         </div>
